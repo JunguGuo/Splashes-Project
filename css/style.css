@@ -40,3 +40,20 @@
   padding-top: 7rem;
   padding-bottom: 12rem;
 }
+
+.section-header {
+  /* Apply padding to all sides */
+  padding: 1rem; /* Equivalent to p-3 */
+
+  /* Apply padding to the bottom specifically at the medium breakpoint (md) and larger */
+  @media (min-width: 768px) {
+    padding-bottom: 1.5rem; /* Equivalent to pb-md-4 */
+  }
+
+  /* Center the element horizontally */
+  margin-left: auto; /* Equivalent to mx-auto */
+  margin-right: auto; /* Equivalent to mx-auto */
+
+  /* Center the text within the element */
+  text-align: center; /* Equivalent to text-center */
+}
