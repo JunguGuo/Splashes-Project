@@ -35,3 +35,8 @@
   object-fit: cover;
   object-position: center;
 }
+
+.py-6 {
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+}
