@@ -31,7 +31,7 @@
 .carousel-inner img {
   width: 100%;
   height: auto;
-  max-height: 500px; /* Adjust depending on your needs */
+  max-height: 500px;
   object-fit: cover;
   object-position: center;
 }
@@ -42,18 +42,37 @@
 }
 
 .section-header {
-  /* Apply padding to all sides */
-  padding: 1rem; /* Equivalent to p-3 */
-
-  /* Apply padding to the bottom specifically at the medium breakpoint (md) and larger */
+  padding: 1rem;
   @media (min-width: 768px) {
-    padding-bottom: 1.5rem; /* Equivalent to pb-md-4 */
+    padding-bottom: 1.5rem;
   }
 
-  /* Center the element horizontally */
-  margin-left: auto; /* Equivalent to mx-auto */
-  margin-right: auto; /* Equivalent to mx-auto */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
-  /* Center the text within the element */
-  text-align: center; /* Equivalent to text-center */
+/* Contact Page */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #fff;
+  z-index: 3;
+  width: 80%;
+  max-width: 400px;
 }

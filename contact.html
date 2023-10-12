@@ -16,7 +16,7 @@
   <body>
     <div id="navbar-placeholder"></div>
 
-    <!-- Contact Us -->
+    <!-- Contact -->
     <section id="contact" class="bg-light py-6">
       <div class="container">
         <div class="section-header">
@@ -27,11 +27,12 @@
         </div>
         <div class="row">
           <div class="col-md-12 col-lg-10 mx-auto">
-            <form>
+            <form id="contactForm">
               <div class="row mb-3">
                 <div class="col-md-6">
                   <input
                     type="text"
+                    id="firstName"
                     class="form-control"
                     placeholder="First Name"
                     required
@@ -98,6 +99,29 @@
                 </button>
               </div>
             </form>
+
+            <!-- Add the popup and overlay -->
+            <!-- Popup -->
+            <div class="overlay" id="overlay"></div>
+            <div class="popup card mb-4 rounded-3 shadow-sm" id="popup">
+              <!-- Apply card classes here -->
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Welcome to the Community!</h4>
+
+                <!-- Adjusted position -->
+              </div>
+              <div class="card-body">
+                <p class="card-text" id="welcomeMessage"></p>
+                <!-- Use card-text class for consistent styling -->
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-dark"
+                  id="closePopup"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -112,6 +136,32 @@
         $("#navbar-placeholder").load("navbar.html");
         $("#footer-placeholder").load("footer.html");
       });
+    </script>
+
+    <script>
+      // Handle form submission
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission
+
+          const firstName = document.getElementById("firstName").value;
+          const welcomeMessage = `Hello, ${firstName}! Thank you for reaching out. We will keep in touch soon.`;
+          document.getElementById("welcomeMessage").textContent =
+            welcomeMessage;
+
+          // Show the overlay and popup
+          document.getElementById("overlay").style.display = "block";
+          document.getElementById("popup").style.display = "block";
+        });
+
+      // Close the popup
+      document
+        .getElementById("closePopup")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "none";
+          document.getElementById("popup").style.display = "none";
+        });
     </script>
   </body>
 </html>
