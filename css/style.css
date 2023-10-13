@@ -76,3 +76,66 @@
   width: 80%;
   max-width: 400px;
 }
+
+body {
+  font-family: 'Quicksand', sans-serif; /* Update the font-family for the entire body */
+}
+
+h1, h2, h3, p {
+  font-family: 'Quicksand', sans-serif; /* Update font for headings and paragraphs */
+}
+
+/* Add this CSS rule for elements with a specific class or ID, if needed */
+.custom-class {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Change color for h1 and h2 */
+h1, h2 {
+  color: #1d4d9b;
+}
+
+/* Change color for h3 */
+h3 {
+  color: #fe9258;
+}
+
+/* Change color for h4 and h5 */
+h4, h5 {
+  color: #f14a79;
+}
+
+/* Change color for paragraphs */
+p {
+  color: #349ae1;
+}
+
+/* Change color for links */
+a {
+  color: #1d4d9b;
+}
+
+/* Menu background color */
+#navbar-placeholder {
+  background-color: #adb5df;
+}
+
+/* Menu color */
+.navbar {
+  color: #fe9258;
+}
+
+/* Menu link color */
+.navbar a {
+  color: #1d4d9b;
+}
+
+/* Menu visited link color */
+.navbar a:visited {
+  color: #349ae1;
+}
+
+/* Change color for h1 with class "display-5" */
+h1.display-5 {
+  color: #1d4d9b; /* Change to the desired color */
+}
