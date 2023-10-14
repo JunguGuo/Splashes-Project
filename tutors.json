@@ -3,48 +3,48 @@
     "id": 1,
     "name": "Emily Thompson",
     "description": "Emily holds a PhD in Mathematics from MIT and has over 5 years of teaching experience. She's passionate about making complex topics easy to understand.",
-    "imageUrl": "./images/tutor1.jpg"
+    "imageUrl": "./images/tutor1.png"
   },
   {
     "id": 2,
     "name": "Robert Peters",
     "description": "Robert is a literature enthusiast with a Master's in English. He loves exploring character developments and themes in classic novels.",
-    "imageUrl": "./images/tutor2.jpg"
+    "imageUrl": "./images/tutor2.png"
   },
   {
     "id": 3,
     "name": "Nina Gonzales",
     "description": "Nina is a biologist with a keen interest in marine life. She has conducted research in the Great Barrier Reef and enjoys sharing her knowledge with students.",
-    "imageUrl": "./images/tutor3.jpg"
+    "imageUrl": "./images/tutor3.png"
   },
   {
     "id": 4,
     "name": "Lucas Wang",
     "description": "Lucas is a historian who focuses on medieval Europe. He has written several articles and loves engaging students with tales of knights and castles.",
-    "imageUrl": "./images/tutor4.jpg"
+    "imageUrl": "./images/tutor4.png"
   },
   {
     "id": 5,
     "name": "Sophia Patel",
     "description": "With a background in Computer Science, Sophia specializes in teaching programming languages. She has a knack for breaking down complex codes into simple logic.",
-    "imageUrl": "./images/tutor5.jpg"
+    "imageUrl": "./images/tutor5.png"
   },
   {
     "id": 6,
     "name": "Benjamin Gomez",
     "description": "Benjamin is an artist and art historian. He loves to teach students about various art movements and techniques from Renaissance to Abstract Expressionism.",
-    "imageUrl": "./images/tutor6.jpg"
+    "imageUrl": "./images/tutor6.png"
   },
   {
     "id": 7,
     "name": "Olivia Kim",
     "description": "A physicist with numerous accolades, Olivia enjoys teaching the wonders of the universe. From quantum mechanics to relativity, she makes it all fascinating.",
-    "imageUrl": "./images/tutor7.jpg"
+    "imageUrl": "./images/tutor7.png"
   },
   {
     "id": 8,
     "name": "Ethan Murphy",
     "description": "Ethan is a linguist who speaks 5 languages fluently. He believes in immersive learning and loves to share cultural stories behind each language.",
-    "imageUrl": "./images/tutor8.jpg"
+    "imageUrl": "./images/tutor8.png"
   }
 ]

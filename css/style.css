@@ -1,5 +1,5 @@
 .gradient-background {
-  background: linear-gradient(300deg, #baeeff, #c3d9ff, #bdf8ff);
+  background: radial-gradient(circle, #7bc8ff, #ffe993, #a5f6ff);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -107,7 +107,7 @@ h4, h5 {
 
 /* Change color for paragraphs */
 p {
-  color: #349ae1;
+  color: #06538a;
 }
 
 /* Change color for links */
@@ -135,7 +135,96 @@ a {
   color: #349ae1;
 }
 
-/* Change color for h1 with class "display-5" */
-h1.display-5 {
-  color: #1d4d9b; /* Change to the desired color */
+.btn {
+  color: #1d4d9b;
 }
+
+/* Change text color in cards to #1d4d9b */
+.card {
+  color: #1d4d9b;
+}
+
+/* Change the table color to #1d4d9b */
+table {
+  color: #1d4d9b;
+}
+
+/* Change card border color to #1d4d9b */
+.card {
+  border-color: #1d4d9b;
+}
+
+/* Change border color for elements with class 'border-dark' to #1d4d9b */
+.border-dark {
+  border-color: #1d4d9b;
+}
+
+/* Change text color within elements with class 'table-responsive' to #1d4d9b */
+.table-responsive {
+  color: #1d4d9b;
+}
+
+/* svg icon color */
+.icon-square svg {
+  fill: #1d4d9b;
+}
+
+/* Target the specific text element and change its color */
+p.text-body-secondary {
+  color: #349ae1;
+ }
+
+ 
+ .tutor-card img {
+  border-radius: 10px; /* Set the border radius to 10px for rounded corners */
+}
+
+#facility-gallery img {
+  border-radius: 10px; /* Set the border radius to 10px for rounded corners */
+} 
+
+/* stripe gradient animation */
+.background-container {
+  position: relative;
+
+}
+
+ /* Override the default dark button color */
+ .btn-dark {
+  background-color: #fe9258;
+  border-color: #fe9258;
+}
+
+
+#demo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the canvas behind the content */
+}
+
+      /* Additional styles for the gallery */
+      .gallery-item {
+        position: relative;
+      }
+
+      .gallery-item:hover .overlay {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #adb5df;
+        color: #1d4d9b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
