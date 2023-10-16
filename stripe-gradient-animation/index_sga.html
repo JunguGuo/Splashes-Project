@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stripe Gradient Animation Example</title>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    
+      <canvas id="demo"></canvas>
+    
+  </div>
+  
+  <div class="centered-text">
+    <p>Hi</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="./stripe-gradient-animation/dist/stripe-gradient.js"></script>
+  <script>
+    (function() {
+      'use strict';
+      $('#demo').gradient({
+        colors: ['#349ae1', '#f14a79', '#90e0ff', '#ffcb57']
+      });
+    })();
+  </script>
+</body>
+</html>

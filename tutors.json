@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "name": "Emily Thompson",
-    "description": "Emily holds a PhD in Mathematics from MIT and has over 5 years of teaching experience. She's passionate about making complex topics easy to understand.",
-    "imageUrl": "./images/tutor1.jpg"
+    "name": "David Mitchell",
+    "description": "David is a patient and skilled swimming instructor, dedicated to helping learners overcome any fears and challenges in the water. His approachable nature and expertise make swimming lessons enjoyable and rewarding for all his students.",
+    "imageUrl": "./images/tutor1.png"
   },
   {
     "id": 2,
-    "name": "Robert Peters",
-    "description": "Robert is a literature enthusiast with a Master's in English. He loves exploring character developments and themes in classic novels.",
-    "imageUrl": "./images/tutor2.jpg"
+    "name": "Mikey Anderson",
+    "description": "Mikey is a seasoned swimming instructor known for his motivational teaching style. His passion for water sports and dedication to individualized instruction help swimmers excel and reach their swimming aspirations.",
+    "imageUrl": "./images/tutor2.png"
   },
   {
     "id": 3,
-    "name": "Nina Gonzales",
-    "description": "Nina is a biologist with a keen interest in marine life. She has conducted research in the Great Barrier Reef and enjoys sharing her knowledge with students.",
-    "imageUrl": "./images/tutor3.jpg"
+    "name": "Alex Foster",
+    "description": "Alex is a dynamic swimming instructor with a keen eye for detail. His coaching emphasizes stroke perfection and efficiency, empowering swimmers to achieve their goals and reach their full potential in the water.",
+    "imageUrl": "./images/tutor3.png"
   },
   {
     "id": 4,
-    "name": "Lucas Wang",
-    "description": "Lucas is a historian who focuses on medieval Europe. He has written several articles and loves engaging students with tales of knights and castles.",
-    "imageUrl": "./images/tutor4.jpg"
+    "name": "Nicholas Daves",
+    "description": "Nicholas is a dedicated swimming instructor with a background in competitive swimming. He leverages his expertise to teach advanced techniques and instill discipline, fostering a sense of determination and achievement in his students.",
+    "imageUrl": "./images/tutor4.png"
   },
   {
     "id": 5,
-    "name": "Sophia Patel",
-    "description": "With a background in Computer Science, Sophia specializes in teaching programming languages. She has a knack for breaking down complex codes into simple logic.",
-    "imageUrl": "./images/tutor5.jpg"
+    "name": "Emily Henderson",
+    "description": "Emily is a passionate swimming instructor known for her patient and encouraging teaching style. With years of experience, she has honed her skills to make swimming lessons enjoyable and effective for learners of all ages.",
+    "imageUrl": "./images/tutor5.png"
   },
   {
     "id": 6,
-    "name": "Benjamin Gomez",
-    "description": "Benjamin is an artist and art historian. He loves to teach students about various art movements and techniques from Renaissance to Abstract Expressionism.",
-    "imageUrl": "./images/tutor6.jpg"
+    "name": "Lauren Carter",
+    "description": "Lauren is a nurturing and experienced swimming instructor who prioritizes creating a positive and engaging learning environment. Her patience and understanding of each student's unique needs foster a love for swimming in learners.",
+    "imageUrl": "./images/tutor6.png"
   },
   {
     "id": 7,
-    "name": "Olivia Kim",
-    "description": "A physicist with numerous accolades, Olivia enjoys teaching the wonders of the universe. From quantum mechanics to relativity, she makes it all fascinating.",
-    "imageUrl": "./images/tutor7.jpg"
+    "name": "Sarah Brooks",
+    "description": "Sarah is a passionate swimming instructor with a focus on personalized instruction. She believes in tailoring lessons to suit each swimmer's abilities, helping them progress and become competent and confident swimmers.",
+    "imageUrl": "./images/tutor7.png"
   },
   {
     "id": 8,
-    "name": "Ethan Murphy",
-    "description": "Ethan is a linguist who speaks 5 languages fluently. He believes in immersive learning and loves to share cultural stories behind each language.",
-    "imageUrl": "./images/tutor8.jpg"
+    "name": "Ryan Morales",
+    "description": "Ryan an experienced swimming instructor, brings enthusiasm and expertise to every lesson. His focus on technique and water safety empowers his students to become confident and skilled swimmers, making learning a delightful journey.",
+    "imageUrl": "./images/tutor8.png"
   }
 ]
