@@ -78,20 +78,24 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif; /* Update the font-family for the entire body */
+  font-family: "Quicksand", sans-serif; /* Update the font-family for the entire body */
 }
 
-h1, h2, h3, p {
-  font-family: 'Quicksand', sans-serif; /* Update font for headings and paragraphs */
+h1,
+h2,
+h3,
+p {
+  font-family: "Quicksand", sans-serif; /* Update font for headings and paragraphs */
 }
 
 /* Add this CSS rule for elements with a specific class or ID, if needed */
 .custom-class {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Change color for h1 and h2 */
-h1, h2 {
+h1,
+h2 {
   color: #1d4d9b;
 }
 
@@ -101,7 +105,8 @@ h3 {
 }
 
 /* Change color for h4 and h5 */
-h4, h5 {
+h4,
+h5 {
   color: #f14a79;
 }
 
@@ -172,29 +177,26 @@ table {
 /* Target the specific text element and change its color */
 p.text-body-secondary {
   color: #349ae1;
- }
+}
 
- 
- .tutor-card img {
+.tutor-card img {
   border-radius: 10px; /* Set the border radius to 10px for rounded corners */
 }
 
 #facility-gallery img {
   border-radius: 10px; /* Set the border radius to 10px for rounded corners */
-} 
+}
 
 /* stripe gradient animation */
 .background-container {
   position: relative;
-
 }
 
- /* Override the default dark button color */
- .btn-dark {
+/* Override the default dark button color */
+.btn-dark {
   background-color: #fe9258;
   border-color: #fe9258;
 }
-
 
 #demo {
   position: absolute;
@@ -205,26 +207,36 @@ p.text-body-secondary {
   z-index: -1; /* Place the canvas behind the content */
 }
 
-      /* Additional styles for the gallery */
-      .gallery-item {
-        position: relative;
-      }
+/* Additional styles for the gallery */
+.gallery-item {
+  position: relative;
+}
 
-      .gallery-item:hover .overlay {
-        opacity: 1;
-      }
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
 
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #adb5df;
-        color: #1d4d9b;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 0.3s;
-      }
+/* Contact Page */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #fff;
+  z-index: 3;
+  width: 80%;
+  max-width: 400px;
+}
