@@ -31,6 +31,15 @@
       <section id="tutors-gallery" class="py-6">
         <div class="container">
           <div class="section-header">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button
+                type="button"
+                id="signupButton"
+                class="btn btn-light btn-lg px-4 me-md-2"
+                onclick="myFunction()"
+              >
+                Sign Up
+              </button>
             <h2 class="display-4 fw-normal">Tutors Gallery</h2>
             <p class="fs-5 text-body-secondary">
               Our instructors are dedicated to creating an exceptional
@@ -188,6 +197,12 @@
         $("#navbar-placeholder").load("navbar.html");
         $("#footer-placeholder").load("footer.html");
       });
+
+      function myFunction() {
+        // Your action here
+        alert("Button clicked!");
+        window.print();
+      }
     </script>
 
     <script>
